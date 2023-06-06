@@ -1,0 +1,147 @@
+/* /* COMUN* */
+body {
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+h1 {
+   font-size: 40px;
+   text-align: center;
+   color: green;
+   margin-bottom: 100px;
+}
+
+h2 {
+   font-size: 40px;
+   color: green;
+}
+
+/* CATALIN */
+#upperpart {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#logo {
+   height: 120px;
+   display: flex;
+   justify-self: start;
+}
+
+.headerlist {
+   display: inline-block;
+   list-style-type: none;
+}
+
+.option {
+   font-size: 25px;
+   padding: 7px;
+   text-decoration: none;
+   color: black;
+   border-radius: 40px;
+   padding: 7px;
+   margin: 10px;
+}
+
+.option:hover {
+   background-color: black;
+   color: white;
+}
+
+/* DESPRE NOI */
+
+/* RALUCA */
+#desprenoi {
+   font-size: 70px;
+   padding: 150px 0px;
+   color: white;
+   background-image: url("facultate.png");
+   background-size: cover;
+   background-position: center;
+}
+
+/* RALUCA */
+.programe {
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   background-color: green;
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+
+h3 {
+   font-size: 25px;
+}
+p {
+   font-size: 17px;
+}
+
+/* INDEX */
+
+/* CATALIN */
+#unitbv {
+   font-size: 70px;
+   color: white;
+   padding: 100px 0px;
+   background-image: url(aula.jpg);
+   background-position: center;
+}
+
+/* RALUCA */
+.article {
+   display: flex;
+   margin-bottom: 40px;
+   align-items: center;
+}
+
+.article img {
+   width: 300px;
+   padding-right: 50px;
+}
+
+.article h2 {
+   font-size: 35px;
+}
+
+.article p {
+   font-size: 20px;
+}
+
+/* CONTACT */
+
+/* CATALIN */
+.superh3 {
+   font-size: 35px;
+   color: gray;
+}
+
+/* RALUCA */
+#contact {
+   font-size: 70px;
+   color: white;
+   padding: 100px 0px;
+   background-image: url(pozatrei.jpg);
+   background-position: center;
+}
+
+/* CATALIN */
+
+/* MAP */
+.mapouter {
+   position: relative;
+   text-align: right;
+   width: 600px;
+   height: 400px;
+}
+.gmap_canvas {
+   overflow: hidden;
+   background: none !important;
+   width: 600px;
+   height: 400px;
+}
+.gmap_iframe {
+   width: 600px !important;
+   height: 400px !important;
+}
